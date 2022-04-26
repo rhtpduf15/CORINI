@@ -80,7 +80,7 @@ class ML_NE:
 
     def run_agents(self, agents):
         reward_agents = []
-        env = gym.make("CartPole-v0")
+        env = gym.make("CartPole-v1")
 
         for agent in agents:
             agent.eval()
